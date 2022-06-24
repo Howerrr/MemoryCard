@@ -1,0 +1,63 @@
+.home-page {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  height: 80vh;
+  min-width: 50%;
+  margin: 40px auto;
+  overflow: auto;
+  min-height: 300px;
+  background: linear-gradient(to top,#f9ad76,#7cc5fc);
+  border: none;
+  border-radius: 10px;
+}
+
+.left {
+  display: flex;
+  height: 100%;
+  width: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  display: flex;
+  height: 100%;
+  width: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.memorycards {
+  margin-top: 60px;
+  flex-grow: 1;
+  display: grid;
+  grid-gap: 40px;
+  grid: auto / auto auto auto;;
+}
+
+.nav {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  font-size: large;
+  color: #7cc5fc;
+}
